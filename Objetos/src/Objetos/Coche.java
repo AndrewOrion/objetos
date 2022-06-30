@@ -13,9 +13,6 @@ public class Coche {
 		velocidad=0;
 	}
 	
-	
-	
-	
 	public Coche(String modelo, String marca, int potencia, int velocidadMax) {
 		super();
 		this.modelo = modelo;
@@ -24,9 +21,6 @@ public class Coche {
 		this.velocidadMax = velocidadMax;
 		velocidad=0;
 	}
-
-
-
 
 	//métodos
 	public void acelerar() { //void porque no devuelve nada
@@ -75,7 +69,5 @@ public class Coche {
 	public void setVelocidadMax(int velocidadMax) {
 		this.velocidadMax = velocidadMax;
 	}
-
-	
 	
 }
